@@ -1,0 +1,228 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.top-section {
+  background: #f0fff0;
+
+  margin-bottom: 50px;
+}
+nav {
+  margin-bottom: 120px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 16px;
+}
+.logo {
+  width: 600px;
+}
+.btn {
+  background: #21b573;
+}
+.heading {
+  width: 380px;
+}
+.heading h1 {
+  font-weight: bold;
+  font-size: 48px;
+}
+.heading span {
+  color: #21b573;
+}
+
+.started-button {
+  position: absolute;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #21b573;
+  padding: 12px 36px;
+  border-radius: 33px;
+}
+.card-box {
+  border: none;
+  background: #f8fffb;
+  border-radius: 10px;
+}
+.card-box:hover {
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0px 0px 15px -5px #d3d3d3bf;
+}
+.card h4 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.online-courses {
+  color: #413960;
+  font-size: 36px;
+  font-weight: bold;
+}
+.buy-now-button {
+  outline: none;
+  border: none;
+  padding: 8px 28px;
+  border-radius: 33px;
+  color: white;
+}
+.course-card {
+  border: none;
+  box-shadow: 2px 2px 11px 3px #d3d3d382;
+  border-radius: 10px;
+}
+.testimonial {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.testimonial h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+}
+.date {
+  font-size: 14px;
+  color: #585859;
+  font-weight: 500;
+  line-height: 24px;
+}
+.details {
+  margin: auto;
+  margin-top: 35px;
+  width: 583px;
+  margin-left: 38px;
+}
+.test-bio {
+  margin-left: 150px;
+}
+.bottom-section {
+  background: #282531;
+  color: #ffffff;
+}
+.all-part {
+  margin-top: 90px;
+  padding-bottom: 50px;
+}
+.course-list ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 15px;
+}
+footer {
+  background: #282531;
+  color: #cdcdcd;
+}
+footer small {
+  font-size: 90%;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 6px;
+}
+footer small a {
+  text-decoration: none;
+  color: #cdcdcd;
+}
+@media screen and (max-width: 576px) {
+  .img-fluid {
+    margin-top: 100px;
+  }
+  .card-box {
+    margin: 25px;
+    background: #f8fffb;
+  }
+  .course-card {
+    margin: 25px;
+  }
+  .test-bio {
+    margin-left: 0;
+  }
+  .all-part {
+    margin: 50px;
+  }
+  .course-list h6 {
+    color: red;
+  }
+}
+@media screen and (max-width: 768px) {
+  .top-section {
+    background: #f0fff0;
+
+    height: 550px;
+  }
+  .img-fluid {
+    margin-top: 100px;
+    margin-left: 25px;
+  }
+  .card-box {
+    margin: 25px;
+  }
+  .card h4 {
+    font-size: 16px;
+  }
+  .buy-now-button {
+    padding: 6px 15px;
+  }
+  .date {
+    flex-direction: column;
+  }
+  .started {
+    font-size: 13px;
+  }
+  .test-bio {
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 960px) {
+  .logo {
+    width: 80%;
+  }
+  .navbar {
+    margin-bottom: 40px;
+  }
+  .top-section {
+    height: 480px;
+  }
+  .img-fluid {
+    margin-left: 50px;
+    margin-top: 110px;
+  }
+  .card-box {
+    margin: 20px;
+  }
+  .date {
+    flex-direction: column;
+  }
+  .started {
+    font-size: 13px;
+  }
+  .test-bio {
+    margin-left: 65px;
+  }
+  .test-bio img {
+    width: 120px;
+  }
+}
+@media screen and (min-width: 1140px) {
+  .logo {
+    width: 435px;
+  }
+  .top-section {
+    height: 580px;
+  }
+  .date {
+    flex-direction: row;
+  }
+  .test-bio {
+    margin-left: 140px;
+  }
+  .test-bio img {
+    width: 130px;
+  }
+  footer small {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
